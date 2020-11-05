@@ -1,5 +1,5 @@
 provider "metadata" {
-    api_tok = ""
+    api_tok = "UhaGae289taAmjYZCEhj"
 }
 
 data "metadata_tags" "test" {

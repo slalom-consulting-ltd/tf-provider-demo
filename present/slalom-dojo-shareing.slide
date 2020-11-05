@@ -1,0 +1,31 @@
+Slalom Dojo Shareing 
+2020/11
+
+👩🏻‍💻 Built a custom terraform provider for your own API
+
+by pingzhou.liu⛵
+📥 pingzhou.liu@slalom.com
+
+* What is it
+
+- Terrafom lets you define your infrastructure as code. Under the hood it's a powerful state machine that makes API requests and marshals resources.
+
+- A provider is responsible for understanding API interactions and exposing resources. Most providers configure a specific infrastructure platform (either cloud or self-hosted). Providers can also offer local utilities for tasks like generating random numbers for unique resource names.
+
+* Demo Time
+
+* Use cases
+
+- tagging
+- naming convention
+- release management
+
+* Q&A
+
+* References:
+github page for this demo: https://github.com/slalom-consulting-ltd/tf-provider-demo
+
+- https://www.hashicorp.com/resources/creating-terraform-provider-for-anything
+- https://learn.hashicorp.com/tutorials/terraform/provider-use?in=terraform/providers
+- https://github.com/hashicorp/terraform-provider-hashicups
+- https://github.com/Mastercard/terraform-provider-restapi 

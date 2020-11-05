@@ -1,5 +1,4 @@
-# tf-provider-demo
-
+# tf-provider-demo for dojo sharing 2020/11/05
 This is an example about how to build a custom terraform provider for a cutom API built with aws api gateway, lambda functions and dynamodb
 
 ```bash

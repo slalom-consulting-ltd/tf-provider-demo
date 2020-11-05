@@ -1,4 +1,5 @@
 .demo
+_demo/*
 # Local .terraform directories
 **/.terraform/*
 
