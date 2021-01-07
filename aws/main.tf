@@ -17,15 +17,6 @@ module "api-gw" {
         "method.request.querystring.team" = true
       }
     },
-    {
-      path   = "tag2"
-      method = "POST"
-      lambda = "createUser"
-      request_parameters = {
-        "method.request.header.Authorization" = true
-        "method.request.querystring.team" = true
-      }
-    },
   ]
 }
 

@@ -1,0 +1,80 @@
+AWS User Group UK Meetup #46 
+2021/01/27
+
+👩🏻‍💻 Built a custom terraform provider to handle your mandatory tagging 
+
+by pingzhou.liu⛵
+
+📥 pingzhou.liu@slalom.com
+
+* 
+.iframe https://www.slalom.com/what-we-do  500 950
+
+    👋 Hello 🎉
+    👩🏻‍💻 I am a Sr. DevOps Engineer at Slalom ☁️
+    🤓 Interested in Cloud Automation, Big Data and Golang 
+
+: presenter note
+: slalom is a modern consulting firm focused on strategy, technology, and business transformation.
+
+* Prerequisites
+
+To build a custom terraform provider to tag your cloud resources, we will need an API first. 
+
+    $ curl -s \
+    > -H "Authorization: Bearer my_api_tok" \
+    > https://30cqdcgkq7.execute-api.eu-west-1.amazonaws.com/v1/tag?team=abc \
+    > | jq .
+    {
+    "msg": "👍Yep! it is the right api key",
+    "tags": [
+        {
+        "hostname": "📛 hostname",
+        "meta": "📝 Blablablablabla, blabla bla blablablabla blabla blablablablablabla",
+        "owner": "🐻 owner",
+        "tag": "abc",
+        "region": "📍 home",
+        "id": "1",
+        "name": "🗿"
+        }
+    ]
+    }
+
+.background backgroud.png
+
+* Terraform and Terraform provider
+
+- Terrafom is a powerful state machine that makes API requests and marshals resources.
+
+- A provider is responsible for understanding API interactions and exposing resources. Most providers configure a specific infrastructure platform (either cloud or self-hosted). Providers can also offer local utilities for tasks like generating random numbers for unique resource names.
+
+💡 Why not build a custom provider to handle your tags?
+
+: presenter note
+: tagging cloud resources is always a good idea and can be quite important. The question will be how can we make the process easier?
+
+.background backgroud.png
+
+
+* Demo Time
+.background backgroud.png
+
+* Use cases
+
+- Mandatory Tagging
+- Naming Convention
+- Release Management
+
+.background backgroud.png
+
+* Q&A
+.background backgroud.png
+
+* References:
+github page for this demo: https://github.com/slalom-consulting-ltd/tf-provider-demo
+
+- https://www.hashicorp.com/resources/creating-terraform-provider-for-anything
+- https://learn.hashicorp.com/tutorials/terraform/provider-use?in=terraform/providers
+- https://github.com/hashicorp/terraform-provider-hashicups
+- https://github.com/Mastercard/terraform-provider-restapi 
+.background backgroud.png
