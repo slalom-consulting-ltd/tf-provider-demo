@@ -11,7 +11,7 @@ variable "aws_region" {
 }
 
 variable "account_id" {
-  default = "900665556514"
+  default = ""
 }
 
 variable "endpoints" {

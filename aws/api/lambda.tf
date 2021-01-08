@@ -35,7 +35,7 @@ resource "aws_lambda_function" "function" {
 
   environment {
     variables = {
-      apiTok = "UhaGae289taAmjYZCEhj"
+      apiTok = ""
     }
   }
 
