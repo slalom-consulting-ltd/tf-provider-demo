@@ -1,5 +1,6 @@
-# tf-provider-demo for dojo sharing 2020/11/05
-This is an example about how to build a custom terraform provider for a cutom API built with aws api gateway, lambda functions and dynamodb
+# tf-provider-demo
+
+This is a demo showing how to build a custom terraform provider to tag your cloud resources. To do so, you will need an api first. In the ./`./aws` folder, you will find the terraform files to create a simple REST api with aws api gateway, lambda and dynomadb. 
 
 ```bash
 bash-3.2$ terraform init 

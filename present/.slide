@@ -17,6 +17,19 @@ by pingzhou.liu⛵
 : presenter note
 : slalom is a modern consulting firm focused on strategy, technology, and business transformation.
 
+* Terraform and Terraform provider
+
+- Terrafom is a powerful state machine that makes API requests and marshals resources.
+
+- A provider is responsible for understanding API interactions and exposing resources. Most providers configure a specific infrastructure platform (either cloud or self-hosted). Providers can also offer local utilities for tasks like generating random numbers for unique resource names.
+
+💡 Why not build a custom provider to handle your tags?
+
+.background backgroud.png
+
+: presenter note
+: tagging cloud resources is always a good idea and can be quite important. The question will be how can we make the process easier?
+
 * Prerequisites
 
 To build a custom terraform provider to tag your cloud resources, we will need an API first. 
@@ -42,19 +55,6 @@ To build a custom terraform provider to tag your cloud resources, we will need a
 
 .background backgroud.png
 
-* Terraform and Terraform provider
-
-- Terrafom is a powerful state machine that makes API requests and marshals resources.
-
-- A provider is responsible for understanding API interactions and exposing resources. Most providers configure a specific infrastructure platform (either cloud or self-hosted). Providers can also offer local utilities for tasks like generating random numbers for unique resource names.
-
-💡 Why not build a custom provider to handle your tags?
-
-: presenter note
-: tagging cloud resources is always a good idea and can be quite important. The question will be how can we make the process easier?
-
-.background backgroud.png
-
 
 * Demo Time
 .background backgroud.png
@@ -76,5 +76,6 @@ github page for this demo: https://github.com/slalom-consulting-ltd/tf-provider-
 - https://www.hashicorp.com/resources/creating-terraform-provider-for-anything
 - https://learn.hashicorp.com/tutorials/terraform/provider-use?in=terraform/providers
 - https://github.com/hashicorp/terraform-provider-hashicups
-- https://github.com/Mastercard/terraform-provider-restapi 
+- https://github.com/Mastercard/terraform-provider-restapi
+
 .background backgroud.png
