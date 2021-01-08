@@ -1,6 +1,6 @@
 # tf-provider-demo
 
-This is a demo showing how to build a custom terraform provider to tag your cloud resources. To do so, you will need an api first. In the ./`./aws` folder, you will find the terraform files to create a simple REST api with aws api gateway, lambda and dynomadb. 
+This is a demo showing how to build a custom terraform provider to tag your cloud resources. To do so, you will need an api first. In the `./aws` folder, you will find the terraform files to create a simple REST api with aws api gateway, lambda and dynomadb. 
 
 ```bash
 bash-3.2$ terraform init 
